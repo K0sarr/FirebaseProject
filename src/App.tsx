@@ -1,10 +1,17 @@
 import React from 'react';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Main from './pages/main';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello project</h1>
+      <Router>
+        <Routes>
+          <Route path='/' element={<Main />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
