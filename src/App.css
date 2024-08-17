@@ -94,3 +94,58 @@
 .login-container button:active {
     background-color: #2a65c4;
 }
+
+/* CreateForm component styling */
+.create-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.create-form-input,
+.create-form-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.create-form-input:focus,
+.create-form-textarea:focus {
+    border-color: #4285F4;
+    outline: none;
+    box-shadow: 0 0 5px rgba(66, 133, 244, 0.5);
+}
+
+.create-form-error {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.create-form-submit {
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.create-form-submit:hover {
+    background-color: #1558c4;
+}
+
+.create-form-submit:active {
+    background-color: #2a65c4;
+}
