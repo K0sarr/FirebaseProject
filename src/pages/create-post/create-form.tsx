@@ -43,6 +43,7 @@ const CreateForm = () => {
       position: 'top-right',
       autoClose: 3000,
     });
+    // Navigate user home & display toast
     navigate('/', {
       state: {
         showToast: true,
