@@ -45,6 +45,8 @@ const Main = () => {
       {postsList?.map((post) => (
         <Post post={post}/>
       ))}
+      <ToastContainer />
+
     </div>
   )
 }
